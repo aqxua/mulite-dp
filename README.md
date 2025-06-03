@@ -40,14 +40,6 @@ MuLite is a modern, lightweight music player application developed for Android a
 - Flutter SDK
 - Android Studio (for emulator setup)
 
-## Documentation
-The project includes a comprehensive 97-page report detailing the development process, including:
-- Analysis of existing music players (YouTube Music, Spotify, VLC, Musicolet).
-- MVVM architecture design with Repository pattern.
-- UI/UX design process in Figma with low-fidelity wireframes.
-- Implementation details using Flutter and Dart.
-- Testing results on virtual and physical Android devices.
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
