@@ -1,0 +1,66 @@
+name: mulite
+description: "A free music player app for Android and iOS, built with Flutter."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+  just_audio: ^0.9.21
+  just_audio_background: ^0.0.1-beta.10
+  audio_service: ^0.18.0
+  provider: ^6.0.0
+  shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/background.png
+    - assets/images/mulite_logo.png
+    - assets/images/mulite_minilogo.png
+    - assets/images/homepage_background.png
+
+    # ASSETS MUSIC ICONS
+    - assets/images/music/id-1.jpg
+    - assets/images/music/id-2.jpg
+    - assets/images/music/id-3.jpg
+    - assets/images/music/id-4.jpg
+    - assets/images/music/id-5.jpg
+    - assets/images/music/id-6.jpg
+    - assets/images/music/id-7.jpg
+    - assets/images/music/id-8.jpg
+    - assets/images/music/id-9.jpg
+    - assets/images/music/id-10.jpg
+    - assets/images/music/id-11.jpg
+    - assets/images/music/id-12.jpg
+
+    # ASSETS MUSIC FILES
+    - assets/audio/id-1.mp3
+    - assets/audio/id-2.mp3
+    - assets/audio/id-3.mp3
+    - assets/audio/id-4.mp3
+    - assets/audio/id-5.mp3
+    - assets/audio/id-6.mp3
+    - assets/audio/id-7.mp3
+    - assets/audio/id-8.mp3
+    - assets/audio/id-9.mp3
+    - assets/audio/id-10.mp3
+    - assets/audio/id-11.mp3
+    - assets/audio/id-12.mp3
+
+    #PLAYLISTS
+    - assets/images/playlists/nu_metal.jpg
+    - assets/images/playlists/rock.jpg
+    - assets/images/playlists/phonk.jpg
+    - assets/images/playlists/alternative.jpg
